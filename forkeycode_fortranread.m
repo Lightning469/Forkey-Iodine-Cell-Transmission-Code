@@ -1,3 +1,6 @@
+% 2016/9/5
+% Written by David Feng, graduate student at Princeton University.
+
 function [wn, trans, temp_cell, p_vpr] = forkeycode_fortranread(filename)
 
 [data, delimiter, n_hdr] = importdata(filename);
